@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		532C05DF239230D6009A939C /* PSIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532C05DE239230D6009A939C /* PSIModel.swift */; };
+		5379819E2392865000A1FF96 /* PSIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5379819D2392865000A1FF96 /* PSIViewModel.swift */; };
+		537981A22392E88F00A1FF96 /* ViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537981A12392E88F00A1FF96 /* ViewDesign.swift */; };
+		537981A72392EE5F00A1FF96 /* PSICell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537981A62392EE5F00A1FF96 /* PSICell.swift */; };
+		537981A92392EEC100A1FF96 /* PSICellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537981A82392EEC100A1FF96 /* PSICellViewModel.swift */; };
+		53BCAB6A2393CC2E00368F55 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 53BCAB682393CC2D00368F55 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		53BCAB6B2393CC2E00368F55 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 53BCAB692393CC2E00368F55 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		53BCAB6D2393CC4D00368F55 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BCAB692393CC2E00368F55 /* Nimble.framework */; };
+		53BCAB6E2393CC4D00368F55 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BCAB682393CC2D00368F55 /* Quick.framework */; };
+		53D42EC72391F87400509CEF /* PSI_SGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D42EC62391F87400509CEF /* PSI_SGTests.swift */; };
+		53D42ED22391F87400509CEF /* PSI_SGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D42ED12391F87400509CEF /* PSI_SGUITests.swift */; };
+		53D42EEF2391F8FC00509CEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53D42EE02391F8FC00509CEF /* LaunchScreen.storyboard */; };
+		53D42EF02391F8FC00509CEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53D42EE22391F8FC00509CEF /* Main.storyboard */; };
+		53D42EF12391F8FC00509CEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D42EE52391F8FC00509CEF /* AppDelegate.swift */; };
+		53D42EF22391F8FC00509CEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D42EE62391F8FC00509CEF /* SceneDelegate.swift */; };
+		53D42EF32391F8FC00509CEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D42EEB2391F8FC00509CEF /* ViewController.swift */; };
+		53D42EF42391F8FC00509CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D42EEE2391F8FC00509CEF /* Assets.xcassets */; };
+		53D42EFC2392030E00509CEF /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D42EF62392030E00509CEF /* RequestManager.swift */; };
+		53D42EFD2392030E00509CEF /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D42EF72392030E00509CEF /* APIConfiguration.swift */; };
+		53D42EFE2392030E00509CEF /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D42EF92392030E00509CEF /* TypeAlias.swift */; };
+		53D42EFF2392030E00509CEF /* CommonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D42EFA2392030E00509CEF /* CommonMethods.swift */; };
+		53D42F002392030E00509CEF /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D42EFB2392030E00509CEF /* Enum.swift */; };
+		53D42F02239204FE00509CEF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D42F01239204FE00509CEF /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53D42EC32391F87400509CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53D42EA42391F87300509CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53D42EAB2391F87300509CEF;
+			remoteInfo = "PSI-SG";
+		};
+		53D42ECE2391F87400509CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53D42EA42391F87300509CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53D42EAB2391F87300509CEF;
+			remoteInfo = "PSI-SG";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53BCAB672393CC0600368F55 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				53BCAB6A2393CC2E00368F55 /* Quick.framework in CopyFiles */,
+				53BCAB6B2393CC2E00368F55 /* Nimble.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		532C05DE239230D6009A939C /* PSIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSIModel.swift; sourceTree = "<group>"; };
+		5379819D2392865000A1FF96 /* PSIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSIViewModel.swift; sourceTree = "<group>"; };
+		537981A12392E88F00A1FF96 /* ViewDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDesign.swift; sourceTree = "<group>"; };
+		537981A62392EE5F00A1FF96 /* PSICell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSICell.swift; sourceTree = "<group>"; };
+		537981A82392EEC100A1FF96 /* PSICellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSICellViewModel.swift; sourceTree = "<group>"; };
+		53BCAB682393CC2D00368F55 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		53BCAB692393CC2E00368F55 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		53D42EAC2391F87300509CEF /* PSI-SG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PSI-SG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D42EBD2391F87400509CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D42EC22391F87400509CEF /* PSI-SGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PSI-SGTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D42EC62391F87400509CEF /* PSI_SGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSI_SGTests.swift; sourceTree = "<group>"; };
+		53D42EC82391F87400509CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D42ECD2391F87400509CEF /* PSI-SGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PSI-SGUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D42ED12391F87400509CEF /* PSI_SGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSI_SGUITests.swift; sourceTree = "<group>"; };
+		53D42ED32391F87400509CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D42EE12391F8FC00509CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53D42EE32391F8FC00509CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53D42EE52391F8FC00509CEF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53D42EE62391F8FC00509CEF /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		53D42EEB2391F8FC00509CEF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53D42EEE2391F8FC00509CEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53D42EF62392030E00509CEF /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		53D42EF72392030E00509CEF /* APIConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		53D42EF92392030E00509CEF /* TypeAlias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
+		53D42EFA2392030E00509CEF /* CommonMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonMethods.swift; sourceTree = "<group>"; };
+		53D42EFB2392030E00509CEF /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		53D42F01239204FE00509CEF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53D42EA92391F87300509CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D42EBF2391F87400509CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53BCAB6D2393CC4D00368F55 /* Nimble.framework in Frameworks */,
+				53BCAB6E2393CC4D00368F55 /* Quick.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D42ECA2391F87400509CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5379819F2392E7F800A1FF96 /* GeneralClasses */ = {
+			isa = PBXGroup;
+			children = (
+				53D42EF92392030E00509CEF /* TypeAlias.swift */,
+				53D42EFA2392030E00509CEF /* CommonMethods.swift */,
+				53D42EFB2392030E00509CEF /* Enum.swift */,
+				53D42F01239204FE00509CEF /* Extensions.swift */,
+			);
+			path = GeneralClasses;
+			sourceTree = "<group>";
+		};
+		537981A02392E88F00A1FF96 /* IBDesignableComponent */ = {
+			isa = PBXGroup;
+			children = (
+				537981A12392E88F00A1FF96 /* ViewDesign.swift */,
+			);
+			path = IBDesignableComponent;
+			sourceTree = "<group>";
+		};
+		53BCAB6C2393CC4D00368F55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53D42EA32391F87300509CEF = {
+			isa = PBXGroup;
+			children = (
+				53BCAB692393CC2E00368F55 /* Nimble.framework */,
+				53BCAB682393CC2D00368F55 /* Quick.framework */,
+				53D42EAE2391F87300509CEF /* PSI-SG */,
+				53D42EC52391F87400509CEF /* PSI-SGTests */,
+				53D42ED02391F87400509CEF /* PSI-SGUITests */,
+				53D42EAD2391F87300509CEF /* Products */,
+				53BCAB6C2393CC4D00368F55 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53D42EAD2391F87300509CEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53D42EAC2391F87300509CEF /* PSI-SG.app */,
+				53D42EC22391F87400509CEF /* PSI-SGTests.xctest */,
+				53D42ECD2391F87400509CEF /* PSI-SGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53D42EAE2391F87300509CEF /* PSI-SG */ = {
+			isa = PBXGroup;
+			children = (
+				53D42EE42391F8FC00509CEF /* AppDelegate */,
+				53D42EE72391F8FC00509CEF /* AppModule */,
+				53D42EED2391F8FC00509CEF /* Assets */,
+				53D42EDF2391F8FC00509CEF /* Storyboard */,
+				53D42EEC2391F8FC00509CEF /* SupportingFiles */,
+				53D42EF52392030E00509CEF /* NetworkService */,
+				53D42EF82392030E00509CEF /* Utilities */,
+			);
+			path = "PSI-SG";
+			sourceTree = "<group>";
+		};
+		53D42EC52391F87400509CEF /* PSI-SGTests */ = {
+			isa = PBXGroup;
+			children = (
+				53D42EC62391F87400509CEF /* PSI_SGTests.swift */,
+				53D42EC82391F87400509CEF /* Info.plist */,
+			);
+			path = "PSI-SGTests";
+			sourceTree = "<group>";
+		};
+		53D42ED02391F87400509CEF /* PSI-SGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53D42ED12391F87400509CEF /* PSI_SGUITests.swift */,
+				53D42ED32391F87400509CEF /* Info.plist */,
+			);
+			path = "PSI-SGUITests";
+			sourceTree = "<group>";
+		};
+		53D42EDF2391F8FC00509CEF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				53D42EE02391F8FC00509CEF /* LaunchScreen.storyboard */,
+				53D42EE22391F8FC00509CEF /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		53D42EE42391F8FC00509CEF /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				53D42EE52391F8FC00509CEF /* AppDelegate.swift */,
+				53D42EE62391F8FC00509CEF /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		53D42EE72391F8FC00509CEF /* AppModule */ = {
+			isa = PBXGroup;
+			children = (
+				53D42EE82391F8FC00509CEF /* ViewModel */,
+				53D42EE92391F8FC00509CEF /* Model */,
+				53D42EEA2391F8FC00509CEF /* View */,
+			);
+			path = AppModule;
+			sourceTree = "<group>";
+		};
+		53D42EE82391F8FC00509CEF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5379819D2392865000A1FF96 /* PSIViewModel.swift */,
+				537981A82392EEC100A1FF96 /* PSICellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		53D42EE92391F8FC00509CEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				532C05DE239230D6009A939C /* PSIModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		53D42EEA2391F8FC00509CEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				53D42EEB2391F8FC00509CEF /* ViewController.swift */,
+				537981A62392EE5F00A1FF96 /* PSICell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		53D42EEC2391F8FC00509CEF /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				53D42EBD2391F87400509CEF /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		53D42EED2391F8FC00509CEF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				53D42EEE2391F8FC00509CEF /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		53D42EF52392030E00509CEF /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				53D42EF62392030E00509CEF /* RequestManager.swift */,
+				53D42EF72392030E00509CEF /* APIConfiguration.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		53D42EF82392030E00509CEF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				537981A02392E88F00A1FF96 /* IBDesignableComponent */,
+				5379819F2392E7F800A1FF96 /* GeneralClasses */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53D42EAB2391F87300509CEF /* PSI-SG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D42ED62391F87400509CEF /* Build configuration list for PBXNativeTarget "PSI-SG" */;
+			buildPhases = (
+				53D42EA82391F87300509CEF /* Sources */,
+				53D42EA92391F87300509CEF /* Frameworks */,
+				53D42EAA2391F87300509CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PSI-SG";
+			productName = "PSI-SG";
+			productReference = 53D42EAC2391F87300509CEF /* PSI-SG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53D42EC12391F87400509CEF /* PSI-SGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D42ED92391F87400509CEF /* Build configuration list for PBXNativeTarget "PSI-SGTests" */;
+			buildPhases = (
+				53D42EBE2391F87400509CEF /* Sources */,
+				53D42EBF2391F87400509CEF /* Frameworks */,
+				53D42EC02391F87400509CEF /* Resources */,
+				53BCAB672393CC0600368F55 /* CopyFiles */,
+				53BCAB6F2393CC6300368F55 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53D42EC42391F87400509CEF /* PBXTargetDependency */,
+			);
+			name = "PSI-SGTests";
+			productName = "PSI-SGTests";
+			productReference = 53D42EC22391F87400509CEF /* PSI-SGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53D42ECC2391F87400509CEF /* PSI-SGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D42EDC2391F87400509CEF /* Build configuration list for PBXNativeTarget "PSI-SGUITests" */;
+			buildPhases = (
+				53D42EC92391F87400509CEF /* Sources */,
+				53D42ECA2391F87400509CEF /* Frameworks */,
+				53D42ECB2391F87400509CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53D42ECF2391F87400509CEF /* PBXTargetDependency */,
+			);
+			name = "PSI-SGUITests";
+			productName = "PSI-SGUITests";
+			productReference = 53D42ECD2391F87400509CEF /* PSI-SGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53D42EA42391F87300509CEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = prafulmahajan;
+				TargetAttributes = {
+					53D42EAB2391F87300509CEF = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					53D42EC12391F87400509CEF = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 53D42EAB2391F87300509CEF;
+					};
+					53D42ECC2391F87400509CEF = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 53D42EAB2391F87300509CEF;
+					};
+				};
+			};
+			buildConfigurationList = 53D42EA72391F87300509CEF /* Build configuration list for PBXProject "PSI-SG" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53D42EA32391F87300509CEF;
+			productRefGroup = 53D42EAD2391F87300509CEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53D42EAB2391F87300509CEF /* PSI-SG */,
+				53D42EC12391F87400509CEF /* PSI-SGTests */,
+				53D42ECC2391F87400509CEF /* PSI-SGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53D42EAA2391F87300509CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D42EEF2391F8FC00509CEF /* LaunchScreen.storyboard in Resources */,
+				53D42EF42391F8FC00509CEF /* Assets.xcassets in Resources */,
+				53D42EF02391F8FC00509CEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D42EC02391F87400509CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D42ECB2391F87400509CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53BCAB6F2393CC6300368F55 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			dependencyFile = "$(DERIVED_FILES_DIR)/$(INPUT_FILE_PATH).d";
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53D42EA82391F87300509CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D42EFE2392030E00509CEF /* TypeAlias.swift in Sources */,
+				53D42F02239204FE00509CEF /* Extensions.swift in Sources */,
+				537981A92392EEC100A1FF96 /* PSICellViewModel.swift in Sources */,
+				53D42EF32391F8FC00509CEF /* ViewController.swift in Sources */,
+				53D42F002392030E00509CEF /* Enum.swift in Sources */,
+				53D42EF12391F8FC00509CEF /* AppDelegate.swift in Sources */,
+				53D42EFD2392030E00509CEF /* APIConfiguration.swift in Sources */,
+				537981A72392EE5F00A1FF96 /* PSICell.swift in Sources */,
+				53D42EF22391F8FC00509CEF /* SceneDelegate.swift in Sources */,
+				53D42EFF2392030E00509CEF /* CommonMethods.swift in Sources */,
+				537981A22392E88F00A1FF96 /* ViewDesign.swift in Sources */,
+				5379819E2392865000A1FF96 /* PSIViewModel.swift in Sources */,
+				532C05DF239230D6009A939C /* PSIModel.swift in Sources */,
+				53D42EFC2392030E00509CEF /* RequestManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D42EBE2391F87400509CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D42EC72391F87400509CEF /* PSI_SGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D42EC92391F87400509CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D42ED22391F87400509CEF /* PSI_SGUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53D42EC42391F87400509CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53D42EAB2391F87300509CEF /* PSI-SG */;
+			targetProxy = 53D42EC32391F87400509CEF /* PBXContainerItemProxy */;
+		};
+		53D42ECF2391F87400509CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53D42EAB2391F87300509CEF /* PSI-SG */;
+			targetProxy = 53D42ECE2391F87400509CEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53D42EE02391F8FC00509CEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53D42EE12391F8FC00509CEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		53D42EE22391F8FC00509CEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53D42EE32391F8FC00509CEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53D42ED42391F87400509CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53D42ED52391F87400509CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53D42ED72391F87400509CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PSI-SG/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prafulmahajan.PSI-SG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53D42ED82391F87400509CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PSI-SG/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prafulmahajan.PSI-SG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53D42EDA2391F87400509CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "PSI-SGTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prafulmahajan.PSI-SGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PSI-SG.app/PSI-SG";
+			};
+			name = Debug;
+		};
+		53D42EDB2391F87400509CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "PSI-SGTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prafulmahajan.PSI-SGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PSI-SG.app/PSI-SG";
+			};
+			name = Release;
+		};
+		53D42EDD2391F87400509CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PSI-SGUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prafulmahajan.PSI-SGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PSI-SG";
+			};
+			name = Debug;
+		};
+		53D42EDE2391F87400509CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PSI-SGUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prafulmahajan.PSI-SGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PSI-SG";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53D42EA72391F87300509CEF /* Build configuration list for PBXProject "PSI-SG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D42ED42391F87400509CEF /* Debug */,
+				53D42ED52391F87400509CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D42ED62391F87400509CEF /* Build configuration list for PBXNativeTarget "PSI-SG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D42ED72391F87400509CEF /* Debug */,
+				53D42ED82391F87400509CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D42ED92391F87400509CEF /* Build configuration list for PBXNativeTarget "PSI-SGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D42EDA2391F87400509CEF /* Debug */,
+				53D42EDB2391F87400509CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D42EDC2391F87400509CEF /* Build configuration list for PBXNativeTarget "PSI-SGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D42EDD2391F87400509CEF /* Debug */,
+				53D42EDE2391F87400509CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53D42EA42391F87300509CEF /* Project object */;
+}
